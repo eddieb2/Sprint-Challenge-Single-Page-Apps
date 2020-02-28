@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import CharacterCard from './CharacterCard'
 
+
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
   const [data, setData] = useState();
@@ -16,20 +17,20 @@ export default function CharacterList() {
   }, []);
 
   return (
-    <section className="character-list">
-       {!data &&
-      <p>...loading</p>
-      } 
-      {data && 
-        data.map(item => {
-          console.log(item)
-          return <CharacterCard 
-            key={item.timestamp}
-            name={item.name}
-            species={item.species}
-          />
-        })
-      }
-    </section>
+      <section className="character-list">
+        {!data &&
+        <p>...loading</p>
+        } 
+        {data && 
+          data.map((item, index) => {
+            console.log(item)
+            return <CharacterCard 
+              key={index}
+              name={item.name}
+              species={item.species}
+            />
+          })
+        }
+      </section>
   );
 }
