@@ -25,9 +25,9 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Less data is processed, so routing between components is much faster. Transitions and animations are smooth and easier to implement. 
 
 ## Project Set Up
 
@@ -74,16 +74,16 @@ _Add a Router to this application using [React Router](https://reacttraining.com
 
 _Add 'Search by Name' feature._
 
-- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
-- [ ]  Create a search form that will filter through the data displayed in the character list.
+- [x]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
+- [x]  Create a search form that will filter through the data displayed in the character list.
 
 ### **Required best practices:**
 
-- [ ]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ]  Consistent quotation usage.
-- [ ]  Spell-check.
-- [ ]  Schedule time to review, refine and reassess your work.
+- [x]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x]  Consistent quotation usage.
+- [x]  Spell-check.
+- [x]  Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
